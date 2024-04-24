@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>My Website</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!--Icons -->
+  <link href="Images/Hashashin.png" rel="icon">
+  <link href="Images/Hashashin.png" rel="apple-touch-icon">
+
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+  <!--CSS File -->
+  <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+  <header class="header">
+    <a href="#" class="logo">Portfolio</a>
+
+    <i class='bx bx-menu' id="menu-icon"></i>
+
+    <nav class="NavBar">
+      <a href="#home" class="active">Home</a>
+      <a href="#about">About</a>
+      <a href="#resume">Resume</a>
+      <a href="#portfolio">Portfolio</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <!--home -->
+  <section class="home" id="home">
+    <div class="home-content">
+      <h3>Hello</h3>
+      <h1>I'm John Patrick A. Nacional</h1>
+      <h3>And I'm a <span class="multiple-text"></span></h3>
+      <div class="social-media">
+        <a href="https://www.facebook.com/Nashi26" target="_blank"><i class='bx bxl-facebook'></i></a>
+        <a href="https://mail.google.com/mail/u/2/#inbox?compose=VpCqJXKbZcrCSkDhtrtkNlfrsmmGBcTkXrDMcbJXxsrfWfmKDwHcfgdSZdQcvfrxCkrgrVg" target="_blank"><i class='bx bxl-gmail' ></i></a>
+        <a href="https://github.com/JohnPatrickNacional" target="_blank"><i class='bx bxl-github'></i></a>
+      </div>
+    </div>
+    <div class="home-image">
+      <img src="Images/home-image.png">
+    </div>
+  </section>
+
+  <!--about -->
+  <section class="about" id="about">
+    <div class="about-image">
+      <img src="Images/home-image.png" alt="">
+    </div>
+
+    <div class="about-content">
+      <h2 class="heading">About Me</h2>
+      <h3>John Patrick Nacional</h3>
+      <p>Age: 22 yrs.old</p>
+      <p>Date of Birth: April 26, 2001</p>
+      <p>Place of Birth: Valencia City, Bukidnon</p>
+      <p>Sex: Male</p>
+      <p>Height	: 5’7 or 173 cm</p>
+      <p> Weight	: 90 Kgs.</p>
+      <p>Citizenship	: Filipino</p>
+      <p>Civil Status	: Single</p>
+      <p>By pursuing a career in IT, with a focus on software development. Aspire to contribute to innovative projects, tackle complex challenges, and continuously learn and grow in the dynamic field of technology.</p>
+      <p>Proficient in programming languages such as C Programming and Java, Strong problem-solving abilities with a logical mindset, Excellent communication skills for collaboration and conveying technical concepts and I'm a proactive learner, eager to stay updated with emerging trends and technologies in the IT industry. </p>
+    </div>
+  </section>
+
+  <!--resume -->
+  <section class="resume" id="resume">
+      <h2 class="heading">Resume</h2>
+
+      <div class="container">
+  <div class="column left">
+    <h3>Education</h3>
+    <h1>Primary</h1>
+    <p>Laligan Central Elementary School</p>
+    <p>Laligan, Valencia City, Bukidnon</p>
+    <p>2007-2013</p>
+    <h1>Secondary</h1>
+    <p>JHS: Agusan National High School</p>
+    <p>Agusan, Cagayan de Oro City</p>
+    <p>2013-2017</p>
+    <p>SHS: Capitol University</p>
+    <p>Corrales Ext, Barangay 23, Cagayan de Oro City</p>
+    <p>2017-2019</p>
+  </div>
+  <div class="column right">
+    <div class="degree">
+      <h3>BACHELOR OF SCIENCE IN INFORMATION TECHONOLOGY</h3>
+      <p>Bukidnon State University</p>
+      <p>2019-2020 Under graduate</p>
+      <p>Malaybalay City, Bukidnon</p>
+    </div>
+    <div class="degree">
+      <h3>BACHELOR OF SCIENCE IN INFORMATION TECHONOLOGY</h3>
+      <p>University of Science and Technology of Southern Philippines</p>
+      <p>2023-Present</p>
+      <p>Lapasan, Cagayan de Oro City,</p>
+      <h3>Internship/Work Experience</h3>
+      <p>Work Immersion at Microtrade GCM Corporation</p>
+    </div>
+  </div>
+  <div class="Download-CV">
+    <a href="Resume.docx" download target="_blank" class="btn">Download CV</a>
+  </div>
+  </section>
+
+<!--Portfolio -->
+  <section class="portfolio" id="portfolio">
+    <h2 class="heading">Portfolio</h2>
+
+    <div class="portfolio-container">
+      <div class="portfolio-box">
+        <img src="Images/portfolio1.jpg" alt="" onclick="openModal('Images/portfolio1.jpg')">
+      </div>
+
+      <div class="portfolio-box">
+        <img src="Images/portfolio2.jpg" alt="" onclick="openModal('Images/portfolio2.jpg')">
+      </div>
+
+      <div class="portfolio-box">
+        <img src="Images/portfolio3.jpg" alt="" onclick="openModal('Images/portfolio3.jpg')">
+      </div>
+
+      <div class="portfolio-box">
+        <img src="Images/portfolio4.jpg" alt="" onclick="openModal('Images/portfolio4.jpg')">
+      </div>
+
+      <div class="portfolio-box">
+        <img src="Images/portfolio5.jpg" alt="" onclick="openModal('Images/portfolio5.jpg')">
+      </div>
+
+      <div class="portfolio-box">
+        <img src="Images/portfolio6.jpg" alt="" onclick="openModal('Images/portfolio6.jpg')">
+      </div>
+    </div>
+
+    <!--Modal Image -->
+    <div id="myModal" class="modal">
+      <span class="close">&times;</span>
+      <img class="modal-content" id="img01">
+    </div>
+  </section>
+
+  <!--contact -->
+<section class="contact" id="contact">
+    <h2 class="heading_contact">Contact</h2>
+
+    <div class="contact-container">
+      <div class="contact-box">
+        <i class='bx bxl-facebook'></i>
+        <h3>John Patrick A. Nacional</h3>
+        <a href="https://www.facebook.com/Nashi26" target="_blank" class="btn">Facebook</a>
+      </div>
+
+      <div class="contact-box">
+        <i class='bx bxl-gmail'></i>
+        <h3>nacional.johnpatrick04@gmail.com</h3>
+        <a href="https://mail.google.com/mail/u/2/#inbox?compose=VpCqJXKbZcrCSkDhtrtkNlfrsmmGBcTkXrDMcbJXxsrfWfmKDwHcfgdSZdQcvfrxCkrgrVg" target="_blank" class="btn">Gmail</a>
+    </div>
+
+      <div class="contact-box">
+        <i class='bx bxl-github'></i>
+        <h3>JohnPatrickNacional</h3>
+        <a href="https://github.com/JohnPatrickNacional" target="_blank" class="btn">GitHub</a>
+      </div>
+
+    </div>
+</section>
+
+ <!--Footer -->
+<footer class="footer">
+  <div class="footer-text">
+    <p>John Patrick A. Nacional | IT2R13</p>
+  </div>
+
+  <div class="footer-icon">
+    <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+  </div>
+</footer>
+
+<!--animation-->
+<script src="https://unpkg.com/scrollreveal"></script>
+
+<!--type js-->
+<script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+  <script src="js/script.js"></script>
+</body>
+
+</html>
